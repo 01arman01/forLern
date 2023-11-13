@@ -1,0 +1,52 @@
+.main{
+   box-sizing: border-box;
+   width: 100%;
+   background-color: rgba(28, 126, 196, 0.24);
+   padding: 25px;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+.header{
+   margin: 0;
+   font-size: 22px;
+   color: #134291;
+}
+.footer{
+  display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+}
+.footerlastchild{
+   margin-right:0;
+   margin-left: auto;
+    display: flex;
+    gap: 10px;
+
+}
+.buttonsRed{
+    background-color: rgba(210, 102, 102, 0.79);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    /*margin-right: 10px;*/
+}
+.buttonLove{
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.textChangeButton{
+ text-decoration: underline;
+    color: #5d8ad3;
+    cursor: pointer;
+}
+.tooButtons{
+    background-color: rgba(56, 109, 217, 0.89);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    padding:5px 10px ;
+   margin-right: 10px;
+}

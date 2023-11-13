@@ -1,0 +1,19 @@
+.tabsinactive{
+  color: #134291;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: rgba(28, 126, 196, 0.24);
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tabsactive{
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #134291;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
