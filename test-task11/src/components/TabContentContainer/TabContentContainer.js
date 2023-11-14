@@ -21,7 +21,7 @@ function TabContentContainer({data,tabIndex}) {
             </p>
             <div>
                 <div className={s.footer}>
-                    <p className={s.textChangeButton} onClick={onChangeTextOpen}> {textOpen?'open details':'Hide details'}</p>
+                    <p className={s.textChangeButton} onClick={onChangeTextOpen}> {textOpen?'Show details':'Hide details'}</p>
                     <div className={s.footerlastchild}><span>0</span>
                         <button className={s.buttonLove}>❤️️</button>
                         <button className={s.buttonsRed}>+</button>
